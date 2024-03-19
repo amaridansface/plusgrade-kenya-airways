@@ -31,10 +31,10 @@
 }
 
 .booking-step-title {
-    color: #ee1c24;
-    font-size: 2.5rem;
-    font-weight: 600;
-    grid-auto-columns: 20px
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  font-weight: 600;
+  grid-auto-columns: 20px
 }
 
 .booking-step-subtitle {

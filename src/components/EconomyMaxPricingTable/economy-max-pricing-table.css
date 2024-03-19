@@ -12,8 +12,8 @@ td, th {
 }
 
 .title-row {
-  background-color: #ee1c24;
-  color:white;
+  background-color: var(--color-primary);
+  color: white;
   text-transform: uppercase;
   text-align: center;
 }

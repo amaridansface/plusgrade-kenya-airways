@@ -7,7 +7,7 @@ function NavigationPath() {
       <div className="navigation-path">
         <div className="navigation-page"> Home </div>
         <GiCommercialAirplane />
-        <div className="navigation-page">On board Experience </div>
+        <div className="navigation-page"> On board Experience </div>
         <GiCommercialAirplane />
         <div className="navigation-page"> Seats </div>
         <GiCommercialAirplane />

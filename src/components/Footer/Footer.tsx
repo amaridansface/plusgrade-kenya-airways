@@ -1,5 +1,4 @@
 import FooterColumn from "../FooterColumn/FooterColumn";
-import FooterMobileApps from "../FooterMobileApp/FooterMobileApps";
 import FooterSocials from "../FooterSocials/FooterSocials";
 import "./footer.css";
 
@@ -14,7 +13,6 @@ function Footer({ footerItems }: Props) {
       ))}
       <div>
         <FooterSocials />
-        <FooterMobileApps />
       </div>
     </footer>
   );

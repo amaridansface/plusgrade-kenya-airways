@@ -5,7 +5,6 @@ import BookingStep from "../components/BookingStep/BookingStep";
 import TermsAndConditionsButton from "../components/TermsAndConditions/TermsAndConditionsButton";
 import NavigationPath from "../components/NavigationPath/NavigationPath";
 import "./Home.css";
-import React from "react";
 
 function Home() {
   return (

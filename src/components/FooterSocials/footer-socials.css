@@ -3,7 +3,6 @@
    gap: 10px;
    padding-bottom: 20px;
    grid-auto-flow: row;
-
 }
 
 .socials {
@@ -16,5 +15,16 @@
 }
 
 .socials a:visited, a:active {
-    color: #ee1c24;
+    color: var(--color-primary);
+}
+
+.footer-apps {
+   display: grid;
+   grid-auto-flow: column;
+   gap: 10px;
+}
+
+.footer-apps img {
+   width: 130px;
+   height: auto;
 }

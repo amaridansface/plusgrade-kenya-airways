@@ -143,6 +143,9 @@ contain:
   INSTAGRAM_URL: "https://www.instagram.com/officialkenyaairways/",
   LINKED_IN_URL: "https://www.linkedin.com/company/kenya-airways/",
   YOUTUBE_URL: "https://www.youtube.com/@KenyaAirwaysKQ",
+  FOOTER_FOLLOW_US: "Follow Us",
+  FOOTER_MOBILE_APPS: "Mobile APP",
+  EMPTY_PAGE_MESSAGE: "Oops! There's nothing here yet.",
 };
 
 Object.freeze(CONSTANTS);

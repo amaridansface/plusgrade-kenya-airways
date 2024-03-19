@@ -19,7 +19,7 @@
 }
 
 .footer-column ul a.active, .footer-column ul a:hover {
-    color: #ee1c24;
+    color: var(--color-primary);
     font-weight: 500;
     position: relative;
 }

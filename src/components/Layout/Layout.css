@@ -8,6 +8,10 @@ body {
   overflow: hidden auto;
 }
 
+input {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+
 .page-content {
   margin: 140px 175px 20px 175px;
   display: flex;

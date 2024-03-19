@@ -1,5 +1,5 @@
 .form-container {
-    background-color: #ee1c24;
+    background-color: var(--color-primary);
     color: white;
     padding: 20px;
     max-height: 90%;

@@ -14,7 +14,7 @@
    text-decoration: none;
 }
 
-.socials a:visited, a:active {
+.socials a, a:visited, a:active {
     color: var(--color-primary);
 }
 

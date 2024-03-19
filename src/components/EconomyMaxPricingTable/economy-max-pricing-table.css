@@ -1,0 +1,44 @@
+table {
+  margin-top: 40px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 7px;
+  border: 1px solid #e7dfdf;
+  border-left: none;
+  border-right: none;
+}
+
+.title-row {
+  background-color: #ee1c24;
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.column-names {
+  border: 2px solid #e7dfdf;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+}
+
+.economy-max-routes {
+  text-align: left;
+}
+
+.table-row:nth-child(odd) {
+  background-color: var(--color-secondary);
+}
+
+.table-row:nth-child(even) {
+  background-color: #fff;
+}
+
+.table-note {
+  margin: 15px 0;
+  font-size: 0.8rem;
+}
+  

@@ -1,0 +1,13 @@
+.apps {
+display: grid;
+grid-auto-flow: column;
+}
+
+.apps img {
+    width: 130px;
+    height: auto;
+}
+
+.google-badge {
+    margin-bottom: -10px;
+}

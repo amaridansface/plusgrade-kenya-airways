@@ -1,0 +1,9 @@
+:root {
+    --color-primary: #ee1c24;
+    --color-secondary: #f2f0f0;
+  }
+
+  html {
+    font-size: 13px;
+    overflow-x: hidden;
+  } 

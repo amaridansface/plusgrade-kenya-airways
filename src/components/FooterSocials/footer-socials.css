@@ -1,0 +1,20 @@
+.footer-socials {
+   display: grid;
+   gap: 10px;
+   padding-bottom: 20px;
+   grid-auto-flow: row;
+
+}
+
+.socials {
+   display: grid;
+   gap: 10px;
+   grid-auto-flow: column;
+   padding-bottom: 10px;
+   width: 30px;
+   text-decoration: none;
+}
+
+.socials a:visited, a:active {
+    color: #ee1c24;
+}

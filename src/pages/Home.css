@@ -1,0 +1,16 @@
+.booking-steps-title {
+  font-size: 1.5rem;
+}
+  
+.booking-steps-subtitle {
+  font-size: 1rem;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  width: 100%;
+}

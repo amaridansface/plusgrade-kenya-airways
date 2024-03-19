@@ -1,0 +1,93 @@
+
+.booking-step {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr; 
+  gap: 40px;
+  width: 100%;
+}
+
+.booking-step li {
+  display: list-item;
+  list-style-type: disc;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 0.2fr 0.2fr 0.4fr;
+  gap: 10px; 
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.booking-step-image {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.booking-step-icon {
+    width: 3.5rem;
+    margin-top: 10px;
+}
+
+.booking-step-title {
+    color: #ee1c24;
+    font-size: 2.5rem;
+    font-weight: 600;
+    grid-auto-columns: 20px
+}
+
+.booking-step-subtitle {
+  padding-top: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.booking-step-description {
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+@media screen and (width <= 1024px) {
+  .booking-step-image {
+    width: 100%;
+    max-width: 30vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .booking-step-description {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  .booking-step-icon {
+    margin-top: 0;
+  }
+}
+
+@media screen and (width <= 576px) {
+  .booking-step {
+    grid-template-columns: 1fr;
+    gap: 0;
+    width: 100%;
+  }
+
+  .booking-step-image {
+    display: none;
+  }
+
+  .content {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    gap: 10px; 
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+
+  .booking-step-description:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

@@ -35,6 +35,10 @@
     line-height: 0px;
 }
 
+.form-button:hover {
+    background-color: var(--color-secondary);
+}
+
 .form-button:hover, .form-button:focus {
     font-weight: 600;
 }
